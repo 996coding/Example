@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    implementation 'com.creek.router:creekrouter:1.0.0'
+    annotationProcessor 'com.creek.router:creekrouter:1.0.0'
+}
+
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}

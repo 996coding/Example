@@ -3,7 +3,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url 'https://creekrouter.com/maven'
+        }
     }
 }
 rootProject.name = "Example"
 include ':app'
+include ':RemoteJar'
