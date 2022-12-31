@@ -21,6 +21,8 @@ android {
 }
 
 dependencies {
+    implementation project(path: ':RemoteJar')
+
     implementation 'com.creek.router:creekrouter:1.0.0'
     annotationProcessor 'com.creek.router:creekrouter:1.0.0'
 }

@@ -1,0 +1,2 @@
+com/hi/remotejar/MyClass.java
+ com.hi.remotejar.MyClass

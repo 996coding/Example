@@ -1,0 +1,1 @@
+path=remote_jar_method#pkgName=com.hi.remotejar.MyClass#method=getRemoteWords#returnType=java.lang.String#paramsList=#isInterface=0#type=101
