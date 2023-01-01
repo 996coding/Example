@@ -1,3 +1,7 @@
+echo '------------------------- start --------------------------------'
+git reset --hard
+git pull
+echo '------------------------ git finished --------------------------'
 task=":app:assemble"
 ./gradlew clean $task
 echo '---------------------- build finished --------------------------'
