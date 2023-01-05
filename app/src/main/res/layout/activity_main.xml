@@ -7,5 +7,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <com.hi.example.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello" />
 
+    <com.hi.example.MailDrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#ff0000"/>
 </LinearLayout>

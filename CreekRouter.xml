@@ -3,4 +3,5 @@
 <!--    根节点至少包含一个AppModule属性,属性值为项目的ApplicationModule名称-->
 <Rare AppModule="app">
     <Log dir="./app/build" />
+    <Module name="app" aliasName="Main" group="plugin"/>
 </Rare>
